@@ -43,7 +43,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Location</p>
                   <a
-                    href="https://maps.app.goo.gl/XKQYAGjgPg3aVWh56"
+                    href="https://www.google.com/maps/search/Sri+Siri+Health+Care+Tanuku/@16.815058,81.4526367,15z?entry=ttu"
                     target="_blank"
                     rel="noreferrer"
                     className="mt-1 block text-base font-medium text-slate-900"

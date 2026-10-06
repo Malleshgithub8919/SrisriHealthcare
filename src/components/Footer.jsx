@@ -5,7 +5,8 @@ import logo from '../assets/sri-siri-logo.png';
 const socialLinks = [
   { href: 'https://srisirihealthcare.com/#', label: 'Facebook', icon: 'f' },
   { href: 'https://srisirihealthcare.com/#', label: 'Twitter', icon: 'X' },
-  { href: 'https://www.youtube.com/channel/UCoZrqTftw_z7tXwagHrw2oA', label: 'YouTube', icon: 'YT' },
+  { href: 'https://www.youtube.com/@doctorsiri9090/shorts', label: 'YouTube', icon: 'YT' },
+  { href: 'https://www.youtube.com/@doctorsiri9090/shorts', label: 'Cheye', icon: 'C' },
   { href: 'https://srisirihealthcare.com/#', label: 'LinkedIn', icon: 'in' },
   { href: 'https://srisirihealthcare.com/#', label: 'Instagram', icon: '◎' },
 ];
@@ -37,6 +38,7 @@ export default function Footer() {
               <a href="#about" className="transition hover:text-white">About</a>
               <a href="#services" className="transition hover:text-white">Services</a>
               <a href="#approach" className="transition hover:text-white">Approach</a>
+              <a href="#gallery" className="transition hover:text-white">Gallery</a>
               <a href="#contact" className="transition hover:text-white">Contact</a>
             </div>
           </div>
@@ -87,7 +89,7 @@ export default function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="mt-0.5 h-4 w-4 text-teal-300" />
                 <a
-                  href="https://maps.app.goo.gl/XKQYAGjgPg3aVWh56"
+                  href="https://www.google.com/maps/search/Sri+Siri+Health+Care+Tanuku/@16.815058,81.4526367,15z?entry=ttu"
                   target="_blank"
                   rel="noreferrer"
                   className="transition hover:text-white"
