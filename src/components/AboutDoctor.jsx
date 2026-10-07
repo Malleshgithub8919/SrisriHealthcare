@@ -1,7 +1,6 @@
 import { Award, CheckCircle2, GraduationCap, HeartHandshake } from 'lucide-react';
 
 import aboutSide from '../assets/about-side.png';
-import drSritha from '../assets/dr-sritha.png';
 
 const highlights = [
   'MBBS from GSL Medical College and University',
@@ -11,21 +10,21 @@ const highlights = [
 
 export default function AboutDoctor() {
   return (
-    <section id="about" className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+    <section id="about" className="mx-auto max-w-7xl scroll-mt-16 px-4 py-12 sm:px-6 lg:px-8 lg:py-20">
       <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">
-        <div className="relative">
+        <div className="relative mx-auto w-full max-w-xl lg:mx-0">
           <div className="absolute -left-6 top-10 h-32 w-32 rounded-full bg-teal-200/60 blur-3xl" />
-          <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-[#edf3f7] p-4 shadow-[0_30px_80px_rgba(15,23,42,0.12)]">
+          <div className="relative rounded-[2rem] border border-slate-200 bg-[#edf3f7] p-4 shadow-[0_30px_80px_rgba(15,23,42,0.12)]">
             <img
-              src={drSritha}
+              src={aboutSide}
               alt="Dr. Sritha portrait"
-              className="h-[520px] w-full rounded-[1.5rem] object-cover object-center"
+              className="h-[min(420px,100vw)] w-full rounded-[1.5rem] object-cover object-top lg:h-[520px]"
             />
 
             <img
               src={aboutSide}
               alt="Dr. Sritha side portrait"
-              className="absolute -bottom-6 right-5 h-36 w-36 rounded-full border-4 border-white object-cover shadow-[0_10px_28px_rgba(15,23,42,0.16)]"
+              className="absolute -bottom-6 right-5 z-10 h-36 w-36 rounded-full border-4 border-white object-cover shadow-[0_10px_28px_rgba(15,23,42,0.16)]"
             />
           </div>
 
